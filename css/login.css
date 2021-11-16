@@ -1,0 +1,107 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    padding: 20px 100px;
+    margin: 0 auto;
+    overflow-y: scroll;
+    width: 100%;
+    background-image: url(../img/mainbg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+    animation: bg_anime 30s ease infinite;
+}
+
+@keyframes bg_anime {
+0% 
+    {
+        background-image: url(../img/mainbg1.jpg);
+    }
+33% {background-image: url(../img/mainbg2.jpg);}
+66% {background-image: url(../img/mainbg3.jpg);}
+/* 15% {opacity: 1;}
+25% {opacity: 0;} */
+100% {background-image: url(../img/mainbg1.jpg);}
+}
+
+header{
+    /* border-top: #333 1px solid;
+    border-bottom: #333 1px solid; */
+    height: 20%;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#sub{
+    width: 80%;
+    height:70px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(157, 243, 107, 0.8);
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+    padding-top: 5px;
+}
+
+#wrap{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px auto;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+    padding: 0 20px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#login_wrap{
+    width:30%;
+    height:40%;
+    background-color: rgb(255, 192, 74, 0.9);
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#l_id{
+    margin:20px auto;
+    height: 40px;
+}
+
+#l_pw{
+    margin:20px auto;
+    height: 40px;
+}
+
+#reg_wrap{
+    width:30%;
+    height:40%;
+    background-color: rgb(255, 192, 74, 0.9);
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#u_id{
+    margin:20px auto;
+    height: 40px;
+}
+
+#u_pw{
+    margin:20px auto;
+    height: 40px;
+}
+
+#u_name{
+    margin:20px auto;
+    height: 40px;
+}

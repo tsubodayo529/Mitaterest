@@ -1,0 +1,104 @@
+body{
+    padding: 20px 100px;
+    margin: 0 auto;
+}
+
+header{
+    border-top: #333 1px solid;
+    border-bottom: #333 1px solid;
+    height: 50px;
+}
+
+#title{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    padding: 0 20px;
+    cursor: pointer;
+    width: 200px;
+}
+
+
+
+#wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height:600px;
+    margin: 30px auto;
+}
+
+#text_wrap{
+    text-align: center;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#title_wrap{
+    height: 20%;
+}
+
+#view_title{
+    width: 80%;
+    height: 30%;
+    margin-bottom: 10px;
+}
+
+#naiyou_wrap{
+    margin-bottom: 10px;
+}
+
+#update_wrap{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#update_text{
+    padding-top: 10px;
+    font-size: 120%;
+    margin-right: 15px;
+}
+
+#update{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+#img_wrap{
+    width:60%; 
+    height:auto; 
+    margin:0;
+    background-color: rgba(248, 242, 242, 0.973);
+    padding: 10px;
+
+}
+
+#img_wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#go_map{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#map{
+    width: 40px;
+    height: 40px;
+}
+
+#plus{
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,37 @@
+body{
+    padding: 20px 100px;
+    margin: 0 auto;
+}
+
+header{
+    border-top: #333 1px solid;
+    border-bottom: #333 1px solid;
+    height: 50px;
+}
+
+#text{
+    margin: 20px;
+    text-align: center;
+}
+
+#title{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    padding: 0 20px;
+    cursor: pointer;
+    width: 200px;
+}
+
+#myMap{
+    margin: 0 auto;
+}
+
+#form{
+    text-align: center;
+}
+
+#submit{
+    margin-top:20px;
+    background-color: orange;
+    color: black;
+}

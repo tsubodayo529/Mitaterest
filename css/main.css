@@ -1,0 +1,82 @@
+body{
+    /* width: 100%;
+    height: 100%; */
+    padding: 20px 100px;
+    margin: 0 auto;
+}
+
+
+
+
+header{
+    border-top: #333 1px solid;
+    border-bottom: #333 1px solid;
+    height: 50px;
+    /* color: white; */
+}
+
+#title{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    padding: 0 20px;
+}
+
+#logout{
+    width: 30px;
+    height: 30px;
+    position:absolute; top:30px; right:250px;
+    background-image: url(../img/logout.png);
+    background-size: contain;
+    cursor: pointer;
+}
+
+#post{
+    width: 30px;
+    height: 30px;
+    position:absolute; top:30px; right:330px;
+    background-image: url(../img/plus.png);
+    background-size: contain;
+    cursor: pointer;
+}
+
+
+main{
+    margin: 0 auto;
+}
+
+main ul {
+    list-style: none;
+    height: 100%;
+    width: 1030px;
+    padding-left: 0;
+    margin: auto;
+}
+
+main ul li{  
+    position:relative;
+    float: left;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    font-size: 80%;
+    text-align: center;
+    border: solid black 1px;
+    background-color: black;
+    margin: 1em 0;
+    border: 1px solid #333;
+    background-color: black;
+    margin:30px 20px;
+}
+
+main ul li img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}

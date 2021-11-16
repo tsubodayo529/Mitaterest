@@ -1,0 +1,147 @@
+body{
+    padding: 20px 100px;
+    margin: 0 auto;
+}
+
+header{
+    border-top: #333 1px solid;
+    border-bottom: #333 1px solid;
+    height: 50px;
+}
+
+#title{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    padding: 0 20px;
+    cursor: pointer;
+    width: 200px;
+}
+
+#wrap{
+    width: 90%;
+    height:100%;
+    border: black 2px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin:20px auto;
+}
+
+#text_wrap{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#color_wrap{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#color_icon{
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/paint.png);
+    background-size: contain;
+    cursor: pointer;
+    margin: 0 30px 10px 0;
+}
+
+#color{
+    width:20%;
+    margin-top: 8px;
+}
+
+#width_wrap{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+#width_icon{
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/width.png);
+    background-size: contain;
+    cursor: pointer;
+    margin: 0 30px 10px 0;
+}
+
+#width_range{
+    width:40%;
+    margin-top: 8px;
+}
+
+#save_wrap{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#clear{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/clear.png);
+    background-size: contain;
+    cursor: pointer;
+    margin: 0 auto 10px;
+}
+
+.download{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 0 auto 10px;
+}
+
+#save{
+    margin: 0 auto;
+}
+
+
+
+#input_wrap{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+#draw_title{
+    width: 80%;
+    height: 10%;
+    margin: 20px auto 20px;
+}
+
+
+#textarea{
+    width: 80%;
+    height: 40%;
+}
+
+#form_wrap{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#file_wrap{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#submit{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(248, 203, 0);
+    color: black;
+    margin: 20px;
+    font-size: 20px;
+}

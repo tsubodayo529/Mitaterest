@@ -1,0 +1,63 @@
+body{
+    padding: 20px 100px;
+    margin: 0 auto;
+}
+
+header{
+    border-top: #333 1px solid;
+    border-bottom: #333 1px solid;
+    height: 50px;
+}
+
+
+#title{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    padding: 0 20px;
+    cursor: pointer;
+    width: 200px;
+}
+
+main{
+    text-align: center;
+    padding: 20px;
+}
+
+#wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 500px;
+    margin: 30px auto;
+}
+
+#input_wrap{
+    width: 50%;
+    padding: 30px;
+}
+
+#view_title{
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#textarea{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#img_wrap{
+    width:50%;
+    background-color: gray;
+}
+#img_wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#file{
+    margin-bottom:30px;
+}
+

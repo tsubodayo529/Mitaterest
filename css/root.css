@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    padding: 20px 100px;
+    margin: 0 auto;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+header{
+    border-top: #333 1px solid;
+    border-bottom: #333 1px solid;
+    height: 50px;
+}
+
+
+
+
+#title{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    padding: 0 20px;
+    cursor: pointer;
+    width: 200px;
+}
+
+#option{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#mode{
+    margin-right: 20px;
+}
+#root{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#map_wrap{
+    height: 100%;
+    display: flex;
+}
+
+
+#direction{
+    width: 35%;
+    height: 80%;
+    overflow-y: scroll;
+    margin-left:30px;
+}
+
